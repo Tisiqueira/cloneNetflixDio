@@ -1,0 +1,78 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    --cinza:rgb(187, 185, 185);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.entrar {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    
+    margin: 5% 0 0 40%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 40%;
+    
+}
+
+.login input{
+    flex-direction: row;
+    width: 400px;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+.login button{
+    flex-direction: row;
+    width: 400px;
+    margin-bottom: 24px;
+    padding: 10px;
+    background-color: red;
+    font: 18px bold;
+    color: white;
+}
+
+.lembre-se{
+    color:var(--cinza);
+    margin: 0 0 0 40%;
+    padding: 10px;
+}
+
+.lembre-se a {
+    margin-left: 50px;
+    text-decoration: none;
+    color:var(--cinza);
+}
+.facebook {
+    margin: 0 0 0 50%;
+}
+
+.informacoes-ajuda{
+    margin: 10px 0 0 40%;
+    text-decoration: none;
+    color:var(--cinza);
+    cursor: pointer;
+}
+
+.informacoes-ajuda a {
+    color: #fff;
+    transition: .2s ease all;
+}
+
+.informacoes-ajuda a:hover{
+    color: red;
+}
