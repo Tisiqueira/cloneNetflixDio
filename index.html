@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    
+    
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -23,9 +33,63 @@
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">LOST</h3>
-                <p class="resumo"></p>
+                <p class="descricao">Um avião cai em uma ilha deserta e logo um grupo de passageiros precisa lutar para sobreviver. Liderados pelo médico Jack Shephard e pelo misterioso John Locke, eles irão descobrir que o local esconde perigosos segredos. </p>
+               
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="redirecionar()"> 
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="redirecionar()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
         </div>
     </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/flash.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/I.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/loki.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/walkingDead.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mk.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mobileSuit.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/paw.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/rick.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/theColector.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/tomorrow.jpg" alt="flash">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+    <!--owl js-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/owl/main.js"></script>
 </body>
 </html>
