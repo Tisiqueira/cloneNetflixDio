@@ -1,0 +1,81 @@
+@media screen and (max-width:700px){
+    .entrar  {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:440px){
+    header .logo{
+        font-size: 20px;
+    }
+    .entrar  {
+        font-size: 40px;
+    }
+    .login input{
+        width: 300px;
+        margin-bottom: 24px;
+        padding: 10px;
+    }
+    .login button{
+        width: 300px;
+        margin-bottom: 24px;
+        padding: 10px;
+    }
+
+    .informacoes-ajuda{
+        margin: 0;
+        text-align: center;
+    }
+
+    .captcha{
+        margin-top:10px;
+        text-align: center;
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .captcha p {
+        width: 100vw;
+    }
+}
+@media screen and (max-width:316px){
+    header .logo{
+        font-size: 10px;
+    }
+    .entrar  {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .login input{
+        width: 200px;
+        margin-bottom: 24px;
+        padding: 10px;
+    }
+    .login button{
+        width: 200px;
+        margin-bottom: 24px;
+        padding: 10px;
+    }
+    .lembre-se{
+        font-size: 10px;
+    }
+    .facebook {
+        font-size: 10px;
+    }
+    .informacoes-ajuda{
+        margin: 0;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .captcha{
+        margin-top:10px;
+        text-align: center;
+        font-size: 8px;
+        width: 50%;
+    }
+
+    .captcha p {
+        width: 100vw;
+    }
+}
